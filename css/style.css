@@ -49,6 +49,17 @@ body {
 	background:#D2D2D2;
 	padding:20px 0;
 }
+
+.header_1 {
+	background:#D2D2D2;
+	padding-top:20px;
+	/*float: left;*/
+	text-align: center;
+	font-size: 400%;
+	color: #337ab7;
+	font-family: “Adobe Caslon Pro”, “Hoefler Text”, Georgia, Garamond, Times, serif;
+		font-style: italic;
+}
 .header_top {
 	padding-bottom:25px;
 }
@@ -129,8 +140,8 @@ body {
     padding:16px 15px;
     color: #fff;
     width:95%;
-     border-top:1px solid #DB3C15;
-     border-bottom:1px solid #DB3C15;
+     border-top:1px solid #070707;
+     border-bottom:1px solid #070707;
      background:url("../images/nav-icon.png") no-repeat 98% center;
 }
 .nav {
@@ -153,8 +164,8 @@ body {
 }
 .nav a {
     padding:16px 33px;
-    color:#ffb29f;
-    border-top:1px solid #DB3C15;
+    color:#fff;
+    border-top:2px solid #fff;
     -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -193,10 +204,10 @@ body {
 }
 .nav li li a {
     display: block;
-    background:#EA5E3C;
+    background:#4d98da;
     position: relative;
     z-index:100;
-    border-top:1px solid #EF7A5D;
+    border-top:1px solid #fff;
     padding:10px;
     font-size:15px;
 }
@@ -204,9 +215,9 @@ body {
 	  background:#DB502E;
 }
 .nav li li li a {
-    background:#ED6A4A;
+    background:#68b2f2;
     z-index:200;
-    border-top:1px solid #EF7A5D;
+    border-top:2px solid #fff;
 }
 
 @media screen and (max-width: 768px) {
