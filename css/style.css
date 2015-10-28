@@ -46,12 +46,13 @@ body {
 	-ms-transition:all .2s linear;
 }
 .header {
-	background:#D2D2D2;
+	/*background:#D2D2D2;*/
+	background: #23272a;
 	padding:20px 0;
 }
 
 .header_1 {
-	background:#D2D2D2;
+	background:#23272a;
 	padding-top:20px;
 	/*float: left;*/
 	text-align: center;
@@ -123,8 +124,7 @@ body {
 	top: 8px;
 	width: 40px;
 	height:60px;
-	/*background: url(../images/left-fold.png) no-repeat;*/
-	background:#337ab7;
+	background: url(../images/left-fold1.png) no-repeat;
 	}
 .navigation span.right-ribbon{
 	position: absolute;
@@ -132,8 +132,7 @@ body {
 	top: 8px;
 	width: 40px;
 	height:60px;
-	/*background: url(../images/right-fold.png) no-repeat;*/
-	background:#337ab7;
+	background: url(../images/right-fold1.png) no-repeat;
 }
 .toggleMenu {
     display:  none;
@@ -411,7 +410,7 @@ body {
 	color:#FFF;
 	padding:10px;
 	padding-left:25px;
-	background:#e44f2b;
+	background:#337ab7;
 	position:relative;
 	margin-bottom:5px;
 }
@@ -629,7 +628,7 @@ body {
 }
 /*** Footer ***/
 .footer {
-	background:#e44f2b;
+	background:#337ab7;
 	padding:3% 0;
 }
 .footer-nav{
@@ -1273,7 +1272,7 @@ body {
 	font-size:16px;
 	padding:10px 25px;
 	font-family: 'Ubuntu Condensed', sans-serif;
-	background:#e44f2b;
+	background:#337ab7;
 	color: #FFF;
 	border:none;
 	text-decoration: none;
