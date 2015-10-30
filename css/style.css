@@ -1063,7 +1063,7 @@ body {
 .product-tags .button a {
 	font-size:1em;
 	padding:10px 15px;
-	background:#E4292F;
+	background:#337ab7;
 	color: #FFF;
 	text-decoration: none;
 	outline: 0;
@@ -1153,7 +1153,7 @@ body {
     font-size:1em;
 	padding:10px 15px;
 	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
-	background:#E4292F;
+	background:#337ab7;
 	color: #FFF;
 	text-decoration: none;
 	border:none;
@@ -1225,10 +1225,34 @@ body {
 	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
 }
 
+
+.btn-primary {
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    color: #fff;
+}
+.btn {
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+
 /** End Preview Page **/
 /*  Contact Form  ============================================================================= */
 
-.contact-form {
+.TR {
 	position: relative;
 	padding:2em 0;
 }
@@ -1545,4 +1569,13 @@ body {
    	width:100%;
    	text-align:center;
    }
+}
+
+
+.table > tbody > tr.infow > td, .table > tbody > tr.infow > th, .table > tbody > tr > td.infow, .table > tbody > tr > th.infow, .table > tfoot > tr.infow > td, .table > tfoot > tr.infow > th, .table > tfoot > tr > td.infow, .table > tfoot > tr > th.infow, .table > thead > tr.infow > td, .table > thead > tr.infow > th, .table > thead > tr > td.infow, .table > thead > tr > th.infow {
+    background-color: #5FA1DA;
+}
+
+#payment ul.payment_methods {
+    list-style: outside none none;
 }
